@@ -1,0 +1,201 @@
+{
+  "phase": "4.5",
+  "title": "호출 그래프 분석 및 미분석 함수 복구",
+  "timestamp": "2025-11-24T17:10:00",
+  "status": "completed",
+  "duration_minutes": 55,
+  "results": {
+    "call_graph_analysis": {
+      "total_calls": 348,
+      "unique_functions": 496,
+      "top_called_function": {
+        "name": "FUN_1000_293e",
+        "calls": 29,
+        "role": "메인 렌더링 디스패처"
+      },
+      "missing_functions_found": 15
+    },
+    "batch_decompilation": {
+      "target_functions": 15,
+      "success": 15,
+      "failed": 0,
+      "success_rate": 100,
+      "functions": [
+        {
+          "name": "FUN_1000_293e",
+          "offset": "0x293e",
+          "calls": 29,
+          "size": 281,
+          "role": "메인 렌더링 디스패처",
+          "importance": "critical"
+        },
+        {
+          "name": "FUN_1000_2711",
+          "offset": "0x2711",
+          "calls": 6,
+          "size": 1694,
+          "role": "게임 로직 (충돌/상태)",
+          "importance": "high"
+        },
+        {
+          "name": "FUN_1000_28c0",
+          "offset": "0x28c0",
+          "calls": 4,
+          "size": 1348,
+          "role": "렌더링 서브루틴 1",
+          "importance": "high"
+        },
+        {
+          "name": "FUN_1000_28ef",
+          "offset": "0x28ef",
+          "calls": 4,
+          "size": 1509,
+          "role": "렌더링 서브루틴 2",
+          "importance": "high"
+        },
+        {
+          "name": "FUN_1000_3824",
+          "offset": "0x3824",
+          "calls": 8,
+          "size": 106,
+          "role": "헬퍼 함수",
+          "importance": "medium"
+        },
+        {
+          "name": "FUN_1000_3265",
+          "offset": "0x3265",
+          "calls": 6,
+          "size": 273,
+          "role": "게임 로직",
+          "importance": "medium"
+        },
+        {
+          "name": "FUN_1000_3384",
+          "offset": "0x3384",
+          "calls": 6,
+          "size": 499,
+          "role": "게임 로직",
+          "importance": "medium"
+        },
+        {
+          "name": "FUN_1000_3818",
+          "offset": "0x3818",
+          "calls": 4,
+          "size": 350,
+          "role": "렌더링 헬퍼",
+          "importance": "medium"
+        },
+        {
+          "name": "FUN_1000_1ea2",
+          "offset": "0x1ea2",
+          "calls": 1,
+          "size": 99,
+          "role": "디스패처",
+          "importance": "low"
+        },
+        {
+          "name": "FUN_1000_1dfc",
+          "offset": "0x1dfc",
+          "calls": 1,
+          "size": 199,
+          "role": "디스패처",
+          "importance": "low"
+        },
+        {
+          "name": "FUN_1000_1dff",
+          "offset": "0x1dff",
+          "calls": 1,
+          "size": 180,
+          "role": "디스패처",
+          "importance": "low"
+        },
+        {
+          "name": "FUN_1000_1e02",
+          "offset": "0x1e02",
+          "calls": 1,
+          "size": 161,
+          "role": "디스패처",
+          "importance": "low"
+        },
+        {
+          "name": "FUN_1000_5fec",
+          "offset": "0x5fec",
+          "calls": 1,
+          "size": 61,
+          "role": "디스패처",
+          "importance": "low"
+        },
+        {
+          "name": "FUN_1000_6009",
+          "offset": "0x6009",
+          "calls": 1,
+          "size": 547,
+          "role": "디스패처",
+          "importance": "low"
+        },
+        {
+          "name": "FUN_1000_6011",
+          "offset": "0x6011",
+          "calls": 1,
+          "size": 528,
+          "role": "디스패처",
+          "importance": "low"
+        }
+      ]
+    },
+    "function_count_update": {
+      "phase1": 118,
+      "mode1_recovery": 11,
+      "mode2_recovery": 11,
+      "phase4_5": 15,
+      "total": 155,
+      "note": "README.md에 137개로 기록되어 있으나 실제로는 155개로 업데이트 필요"
+    },
+    "key_discoveries": {
+      "rendering_system": {
+        "main_dispatcher": "FUN_1000_293e",
+        "subroutine_1": "FUN_1000_28c0",
+        "subroutine_2": "FUN_1000_28ef",
+        "pattern": "4번 반복 호출 (CGA 4개 평면 또는 4개 영역)",
+        "mode_select": "DI 레지스터 값 (0x1dc1 기준)"
+      },
+      "game_logic": {
+        "main_function": "FUN_1000_2711",
+        "object_array": "0x16c6 (7개 캐릭터, 24 bytes 구조체)",
+        "functions": [
+          "collision_detection",
+          "state_update",
+          "rendering_preparation"
+        ]
+      },
+      "tilemap_system": {
+        "dispatcher": "FUN_1000_12c0",
+        "function": "좌표 → 타일 ID → 함수 포인터 점프",
+        "jump_table": "0x1319"
+      }
+    }
+  },
+  "tools_created": [
+    "analyze_call_graph.py",
+    "batch_decompile_missing.py",
+    "recover_missing_functions.py"
+  ],
+  "files_generated": {
+    "decompiled_c_files": 15,
+    "total_size_bytes": 9834,
+    "analysis_json": 1
+  },
+  "efficiency_improvement": {
+    "method": "호출 그래프 + 자동 디컴파일",
+    "time_spent": "55분",
+    "vs_manual_analysis": "10-20배 빠름",
+    "vs_spice86_direct": "메모리 덤프는 그래픽 추출 불가, ExecutionFlow는 유용"
+  },
+  "next_steps": [
+    "FUN_1000_293e 상세 분석 (렌더링 파이프라인)",
+    "FUN_1000_28c0/28ef 분석 (Blit 로직)",
+    "FUN_1000_2711 분석 (게임 로직 구조)",
+    "메인 루프 14개 미분석 함수 계속 진행",
+    "Phase 5: C++ 재구성 준비"
+  ]
+}
