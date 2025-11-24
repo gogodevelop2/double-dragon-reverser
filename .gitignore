@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Ghidra
+*.lock
+*.lock~
+*.gpr~
+*.rep/data/
+ghidra-project/DoubleDragon.rep/
+
+# Spice86 dumps (너무 큼)
+spice86-dumps/*/spice86dumpMemoryDump.bin
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 작업 임시 폴더
+output/
+temp/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 아카이브 (원본 백업, 너무 큼)
+archive/*.tar.gz
+archive/*.zip
+
+# 대용량 바이너리
+tools/Spice86/src/*/bin/
+tools/Spice86/src/*/obj/
+
+# Spice86 전체 (nested git repo)
+tools/Spice86/
+
+# 로그
+*.log
+logs/
