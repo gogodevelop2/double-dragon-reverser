@@ -1,0 +1,252 @@
+{
+  "phase": 4,
+  "title": "게임 로직 완전 분석",
+  "last_updated": "2025-11-24T15:00:00",
+  "progress": 75,
+  "status": "in_progress",
+
+  "tasks": {
+    "rendering": {
+      "status": "in_progress",
+      "progress": 80,
+      "functions_analyzed": [
+        "FUN_1000_3830",
+        "FUN_1000_0360",
+        "FUN_1000_3e6d",
+        "FUN_1000_3f71",
+        "FUN_1000_0412",
+        "FUN_1000_0e30",
+        "FUN_1000_16e0"
+      ],
+      "next": ["FUN_1000_12c0"],
+      "blockers": [
+        "FUN_1000_12c0 미발견 - Blit 함수 (최우선)"
+      ]
+    },
+    "main_loop": {
+      "status": "in_progress",
+      "progress": 70,
+      "total_functions": 16,
+      "analyzed_functions": 2,
+      "functions_analyzed": [
+        "FUN_1000_3830",
+        "FUN_1000_0360"
+      ],
+      "remaining": [
+        "FUN_1000_03ca",
+        "FUN_1000_20fb",
+        "FUN_1000_039e",
+        "FUN_1000_211b",
+        "FUN_1000_029a",
+        "FUN_1000_03ea",
+        "FUN_1000_213b",
+        "FUN_1000_8135",
+        "FUN_1000_034b",
+        "FUN_1000_462a",
+        "FUN_1000_0518",
+        "FUN_1000_4640",
+        "FUN_1000_3fe0",
+        "FUN_1000_05e9"
+      ]
+    },
+    "input": {
+      "status": "pending",
+      "progress": 0,
+      "functions_analyzed": [],
+      "next": ["DOS INT 16h 호출 검색", "키보드 입력 함수 찾기"]
+    },
+    "ai": {
+      "status": "pending",
+      "progress": 0,
+      "functions_analyzed": [],
+      "next": ["적 AI 패턴 분석"]
+    },
+    "combat": {
+      "status": "pending",
+      "progress": 0,
+      "functions_analyzed": [],
+      "next": ["공격 판정", "데미지 계산"]
+    },
+    "collision": {
+      "status": "pending",
+      "progress": 10,
+      "notes": "FUN_1000_3f71에서 나선형 충돌 감지 발견"
+    }
+  },
+
+  "discoveries": [
+    {
+      "date": "2025-11-24",
+      "title": "메인 루프 구조 완전 파악",
+      "description": "LAB_1000_024b가 실제 메인 루프, 재귀 호출 구조",
+      "impact": "critical",
+      "documented_in": "docs/function-analysis/MAIN_LOOP_COMPLETE_ANALYSIS.md"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "7개 객체 배열 발견",
+      "description": "0x16c6 ~ 0x176e, 24 bytes each, 객체#0-1=플레이어, #2-6=적",
+      "impact": "critical",
+      "documented_in": "docs/function-analysis/MAIN_LOOP_COMPLETE_ANALYSIS.md"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "객체 처리 파이프라인 파악",
+      "description": "복사→업데이트→렌더링→저장 6단계 파이프라인",
+      "impact": "high",
+      "documented_in": "docs/function-analysis/MAIN_LOOP_COMPLETE_ANALYSIS.md"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "작업 버퍼 0x168f 발견",
+      "description": "24+ bytes, 현재 처리중인 객체 데이터 임시 저장",
+      "impact": "high",
+      "documented_in": "docs/function-analysis/MAIN_LOOP_COMPLETE_ANALYSIS.md"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "나선형 충돌 감지 알고리즘",
+      "description": "FUN_1000_3f71, 중심에서 바깥으로 빈 공간 탐색",
+      "impact": "medium",
+      "documented_in": "docs/function-analysis/MAIN_LOOP_COMPLETE_ANALYSIS.md"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "VGA 동기화 패턴",
+      "description": "in(0x3da) 비트 8로 수직 블랭킹 대기",
+      "impact": "medium",
+      "documented_in": "docs/function-analysis/MAIN_LOOP_COMPLETE_ANALYSIS.md"
+    }
+  ],
+
+  "memory_map": {
+    "players": {
+      "0x16c8": "플레이어1 상태 (0=죽음, 0x2a=살아있음)",
+      "0x16e0": "플레이어2 상태",
+      "0x4428": "플레이어1 타이머",
+      "0x442a": "플레이어2 타이머",
+      "0x442c": "라이프?"
+    },
+    "game_state": {
+      "0x38d0": "레벨 전환 카운터 (0~6)",
+      "0x38d1": "게임 상태 플래그",
+      "0x38d3": "특수 상태 (999=레벨전환)",
+      "0x318e": "게임 종료 플래그"
+    },
+    "frame_control": {
+      "0x318a": "프레임 타이밍 (0~15)",
+      "0x16b0": "프레임 카운터"
+    },
+    "screen": {
+      "0xf396": "화면 기준 X",
+      "0xf398": "화면 기준 Y"
+    },
+    "objects": {
+      "0x16c6": "객체 배열 시작 (7개 × 24 bytes)",
+      "0x176e": "객체 배열 끝",
+      "0x168f": "작업 버퍼 (현재 객체)",
+      "0x16a7": "계산된 X 좌표",
+      "0x16a9": "계산된 Y 좌표",
+      "0x16ae": "충돌 플래그"
+    },
+    "function_pointers": {
+      "0x18c4": "디스패처 테이블 (11개 × 2 bytes)",
+      "0xe3f": "상태별 행동 테이블",
+      "0x16ef": "타입별 업데이트 테이블"
+    }
+  },
+
+  "systems": {
+    "rendering": {
+      "status": "partially_understood",
+      "confidence": 80,
+      "components": [
+        "메인 루프 (FUN_1000_3830)",
+        "객체 업데이트 (FUN_1000_0360)",
+        "위치 계산 (FUN_1000_3f71)",
+        "Blit (FUN_1000_12c0) - 미발견!"
+      ],
+      "pipeline": "객체 → 작업버퍼 → 업데이트 → 위치계산 → Blit → 저장"
+    },
+    "object_system": {
+      "status": "well_understood",
+      "confidence": 90,
+      "structure": {
+        "count": 7,
+        "size": 24,
+        "base": "0x16c6",
+        "players": 2,
+        "enemies": 5
+      }
+    },
+    "function_dispatch": {
+      "status": "identified",
+      "confidence": 70,
+      "tables": [
+        "0x18c4 (11 entries)",
+        "0xe3f (state-based)",
+        "0x16ef (type-based)"
+      ]
+    }
+  },
+
+  "code_coverage": {
+    "total_functions": 137,
+    "analyzed": 7,
+    "percentage": 5,
+    "critical_path": {
+      "total": 20,
+      "analyzed": 7,
+      "percentage": 35
+    }
+  },
+
+  "next_steps": [
+    {
+      "priority": "P0",
+      "task": "FUN_1000_12c0 찾기",
+      "method": "Ghidra에서 1000:12c0 주소 직접 확인",
+      "estimated_time": "1일"
+    },
+    {
+      "priority": "P0",
+      "task": "메인 루프 나머지 14개 함수 분석",
+      "method": "한 함수씩 디컴파일 코드 읽기",
+      "estimated_time": "1주"
+    },
+    {
+      "priority": "P1",
+      "task": "입력 처리 시스템",
+      "method": "INT 16h 호출 검색",
+      "estimated_time": "2일"
+    },
+    {
+      "priority": "P1",
+      "task": "AI 시스템",
+      "method": "적 객체 업데이트 함수 분석",
+      "estimated_time": "3일"
+    },
+    {
+      "priority": "P2",
+      "task": "전투 시스템",
+      "method": "공격 판정 로직 추적",
+      "estimated_time": "3일"
+    }
+  ],
+
+  "blockers": [
+    {
+      "issue": "FUN_1000_12c0 미발견",
+      "impact": "렌더링 시스템 완성 불가",
+      "workaround": "다른 시스템 먼저 분석"
+    }
+  ],
+
+  "files_created": [
+    "docs/function-analysis/MAIN_LOOP_COMPLETE_ANALYSIS.md",
+    "docs/GAME_RECONSTRUCTION_ROADMAP.md",
+    "docs/ANALYSIS_DOCUMENTATION_GUIDE.md"
+  ],
+
+  "estimated_completion": "2025-12-08"
+}
