@@ -1,0 +1,120 @@
+[
+  {
+    "index": 0,
+    "address": "1000:5f07",
+    "offset": 24327,
+    "status": "recovered",
+    "function_name": "FUN_1000_5f07",
+    "size": 116,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_5f07.c",
+    "code_preview": "\nundefined2 FUN_1000_5f07(void)\n\n{\n  undefined2 *puVar1;\n  undefined2 *puVar2;\n  int iVar3;\n  undefined2 in_AX;\n  int iVar4;\n  int iVar5;\n  int unaff_SI;\n  undefined2 *puVar6;\n  undefined2 *puVar7;\n  ..."
+  },
+  {
+    "index": 1,
+    "address": "1000:5e55",
+    "offset": 24149,
+    "status": "already_exists",
+    "function_name": "FUN_1000_5e55",
+    "size": 178
+  },
+  {
+    "index": 2,
+    "address": "1000:8492",
+    "offset": 33938,
+    "status": "recovered",
+    "function_name": "FUN_1000_8492",
+    "size": 92,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_8492.c",
+    "code_preview": "\nvoid FUN_1000_8492(void)\n\n{\n  undefined2 unaff_DS;\n  \n  *(int *)0xf398 = *(int *)0xf398 + 1;\n  *(int *)0xf38c = (*(int *)0xf38c + 0x5050U & 0x3fff) + 0xb0d0;\n  *(int *)0xf394 = *(int *)0xf394 + 0x10;..."
+  },
+  {
+    "index": 3,
+    "address": "1000:84ee",
+    "offset": 34030,
+    "status": "recovered",
+    "function_name": "FUN_1000_84ee",
+    "size": 79,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_84ee.c",
+    "code_preview": "\nvoid FUN_1000_84ee(void)\n\n{\n  int *piVar1;\n  int iVar2;\n  undefined2 unaff_DS;\n  \n  *(int *)0xf398 = *(int *)0xf398 + -1;\n  *(int *)0xf38c = (*(int *)0xf38c + 0x4e10U & 0x3fff) + 0xb0d0;\n  piVar1 = (..."
+  },
+  {
+    "index": 4,
+    "address": "1000:8583",
+    "offset": 34179,
+    "status": "recovered",
+    "function_name": "FUN_1000_8583",
+    "size": 76,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_8583.c",
+    "code_preview": "\nvoid FUN_1000_8583(void)\n\n{\n  uint uVar1;\n  undefined2 unaff_DS;\n  \n  *(int *)0xf396 = *(int *)0xf396 + 1;\n  uVar1 = *(uint *)0xf38c;\n  *(int *)0xf38c = (*(int *)0xf38c + 0x4f31U & 0x3fff) + 0xb0d0;\n..."
+  },
+  {
+    "index": 5,
+    "address": "1000:853d",
+    "offset": 34109,
+    "status": "recovered",
+    "function_name": "FUN_1000_853d",
+    "size": 70,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_853d.c",
+    "code_preview": "\nvoid FUN_1000_853d(void)\n\n{\n  undefined2 unaff_DS;\n  \n  *(int *)0xf396 = *(int *)0xf396 + -1;\n  *(int *)0xf38c = (*(int *)0xf38c + 0x4f2fU & 0x3fff) + 0xb0d0;\n  if ((*(int *)0xf38c + 0x4f30U & 3) == ..."
+  },
+  {
+    "index": 6,
+    "address": "1000:8622",
+    "offset": 34338,
+    "status": "recovered",
+    "function_name": "FUN_1000_8622",
+    "size": 278,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_8622.c",
+    "code_preview": "\n/* WARNING: Unable to track spacebase fully for stack */\n\nvoid FUN_1000_8622(void)\n\n{\n  undefined2 *puVar1;\n  undefined2 *puVar2;\n  int iVar3;\n  uint uVar4;\n  int iVar5;\n  undefined2 *puVar6;\n  undef..."
+  },
+  {
+    "index": 7,
+    "address": "1000:7eb0",
+    "offset": 32432,
+    "status": "recovered",
+    "function_name": "FUN_1000_7eb0",
+    "size": 74,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_7eb0.c",
+    "code_preview": "\nvoid FUN_1000_7eb0(void)\n\n{\n  int iVar1;\n  int iVar2;\n  \n  iRam00028c1a = DAT_1988_0046 * 10;\n  iVar2 = 0x76f8;\n  uRam00028c1c = 0x76f8;\n  iVar1 = 0xc;\n  do {\n    func_0x000185fb(iVar2);\n    iVar2 = ..."
+  },
+  {
+    "index": 8,
+    "address": "1000:5aaa",
+    "offset": 23210,
+    "status": "recovered",
+    "function_name": "FUN_1000_5aaa",
+    "size": 180,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_5aaa.c",
+    "code_preview": "\n/* WARNING: Unable to track spacebase fully for stack */\n\nvoid FUN_1000_5aaa(void)\n\n{\n  int in_AX;\n  int iVar1;\n  undefined1 *puVar2;\n  undefined1 uVar3;\n  undefined2 *puVar4;\n  undefined2 *puVar5;\n ..."
+  },
+  {
+    "index": 9,
+    "address": "1000:5b5f",
+    "offset": 23391,
+    "status": "recovered",
+    "function_name": "FUN_1000_5b5f",
+    "size": 167,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_5b5f.c",
+    "code_preview": "\nvoid FUN_1000_5b5f(void)\n\n{\n  undefined2 *puVar1;\n  int in_AX;\n  uint uVar2;\n  int in_CX;\n  int iVar3;\n  byte bVar5;\n  uint uVar4;\n  int unaff_DI;\n  int iVar6;\n  uint *puVar7;\n  undefined2 *puVar8;\n ..."
+  },
+  {
+    "index": 10,
+    "address": "1000:5c0a",
+    "offset": 23562,
+    "status": "recovered",
+    "function_name": "FUN_1000_5c0a",
+    "size": 591,
+    "decompiled": true,
+    "output_file": "output/decompiled/FUN_1000_5c0a.c",
+    "code_preview": "\nvoid FUN_1000_5c0a(void)\n\n{\n  char *pcVar1;\n  char *pcVar2;\n  byte bVar3;\n  char cVar4;\n  undefined2 *puVar5;\n  int iVar6;\n  uint uVar7;\n  int iVar8;\n  uint in_DX;\n  byte bVar9;\n  char *pcVar10;\n  ch..."
+  }
+]

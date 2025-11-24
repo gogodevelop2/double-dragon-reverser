@@ -1,0 +1,79 @@
+{
+  "comment": "Double Dragon 함수 네이밍 - 분석 기반 의미 부여",
+  "version": "1.0",
+  "date": "2025-11-24",
+
+  "mappings": {
+    "entry": "main",
+
+    "compression": {
+      "FUN_1000_6091": "lzw_read_bits",
+      "FUN_1000_605b": "lzw_decode",
+      "FUN_1000_2865": "rle_decompress"
+    },
+
+    "graphics_cga": {
+      "FUN_1000_0786": "cga_convert_planes",
+      "FUN_1000_09d1": "cga_write_buffer",
+      "FUN_1000_0cd1": "cga_blit_sprite"
+    },
+
+    "rendering": {
+      "FUN_1000_3830": "game_main_loop",
+      "FUN_1000_3c7e": "render_frame",
+      "FUN_1000_4780": "draw_sprites"
+    },
+
+    "game_logic": {
+      "FUN_1000_0518": "process_input",
+      "FUN_1000_3e6d": "update_enemies"
+    },
+
+    "initialization": {
+      "FUN_1000_093a": "init_graphics_mode",
+      "FUN_1000_0b94": "load_game_data"
+    },
+
+    "data_processing": {
+      "FUN_1000_029a": "update_entity_positions",
+      "FUN_1000_034b": "check_collision",
+      "FUN_1000_0360": "move_player",
+      "FUN_1000_03ca": "update_animation",
+      "FUN_1000_03ea": "handle_attack"
+    },
+
+    "utility": {
+      "FUN_1000_0771": "memory_copy",
+      "FUN_1000_0b54": "string_compare",
+      "FUN_1000_0dd6": "math_multiply",
+      "FUN_1000_0e30": "random_number",
+      "FUN_1000_16e0": "timer_read"
+    },
+
+    "io": {
+      "FUN_1000_0612": "keyboard_read",
+      "FUN_1000_1e8a": "file_open",
+      "FUN_1000_0d8e": "file_read"
+    }
+  },
+
+  "categories_count": {
+    "compression": 3,
+    "graphics_cga": 3,
+    "rendering": 3,
+    "game_logic": 2,
+    "initialization": 2,
+    "data_processing": 40,
+    "utility": 35,
+    "io": 3,
+    "unknown": 29
+  },
+
+  "notes": {
+    "main": "entry point - 키보드 입력 대기 및 게임 초기화",
+    "game_main_loop": "메인 게임 루프 - 복잡도 45.0으로 가장 높음",
+    "render_frame": "프레임 렌더링 - 9개 함수 호출",
+    "lzw_decode": "LZW 압축 해제 - Unix compress 호환",
+    "cga_convert_planes": "CGA 16-plane interleaved 변환 - 435 bytes"
+  }
+}

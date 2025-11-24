@@ -1,0 +1,27 @@
+{
+  "phase": 3,
+  "timestamp": "2025-11-24T11:15:22.977306",
+  "status": "lzw_extraction_completed",
+  "results": {
+    "sprites": {
+      "ABOBO": 508,
+      "BIGBWLY": 869,
+      "LINDA": 237,
+      "PLAYER1": 2711,
+      "WEAPONS": 980,
+      "WILLIAM": 861
+    },
+    "levels": {
+      "LEVEL11": 999,
+      "LEVEL12": 764,
+      "LEVEL21": 1647,
+      "LEVEL22": 790,
+      "LEVEL31": 877,
+      "LEVEL32": 622,
+      "LEVEL51": 1006,
+      "LEVEL52": 407
+    },
+    "total_extracted": 14,
+    "total_size": 13278
+  }
+}

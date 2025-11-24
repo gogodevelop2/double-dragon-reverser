@@ -1,0 +1,56 @@
+{
+  "phase": 2,
+  "title": "코드 분석 및 설계",
+  "timestamp": "2025-11-24T10:30:00",
+  "status": "completed",
+  "results": {
+    "function_analysis": {
+      "total_functions": 118,
+      "categories": {
+        "data_processing": 40,
+        "utility": 35,
+        "unknown": 29,
+        "rendering": 4,
+        "graphics_cga": 3,
+        "compression": 3,
+        "game_logic": 2,
+        "initialization": 2
+      },
+      "complexity_top3": [
+        {"name": "FUN_1000_3830", "complexity": 45.0, "new_name": "game_main_loop"},
+        {"name": "FUN_1000_4780", "complexity": 34.5, "new_name": "draw_sprites"},
+        {"name": "entry", "complexity": 34.0, "new_name": "main"}
+      ]
+    },
+    "architecture": {
+      "main_classes": [
+        "GameEngine",
+        "GraphicsSystem",
+        "CompressionSystem",
+        "EntityManager",
+        "InputHandler",
+        "ResourceLoader"
+      ],
+      "data_structures": [
+        "Entity",
+        "Sprite",
+        "LZWState",
+        "CGABuffer",
+        "GameState"
+      ]
+    },
+    "outputs": [
+      "output/analysis/function_analysis.json",
+      "output/analysis/function_categories.json",
+      "output/analysis/function_analysis.md",
+      "output/analysis/function_names.json",
+      "output/analysis/data_structures.h",
+      "output/analysis/class_design.md"
+    ]
+  },
+  "stats": {
+    "functions_named": 30,
+    "classes_designed": 6,
+    "data_structures_defined": 5
+  }
+}

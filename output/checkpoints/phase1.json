@@ -1,91 +1,12 @@
 {
   "phase": 1,
-  "timestamp": "2025-11-24T09:51:06.347097",
+  "timestamp": "2025-11-24T10:19:36.848949",
+  "binary": "/Users/joejeon/Documents/develop/Double Dragon/reference/dos-original/DDMAIN.EXE",
   "stats": {
-    "total_functions": 188,
-    "decompiled_files": 0,
-    "duration_seconds": 4.544804
-  },
-  "functions": [
-    {
-      "name": "entry_0170_0000_01700",
-      "address": "0x1700"
-    },
-    {
-      "name": "unknown_0170_029A_0199A",
-      "address": "0x199A"
-    },
-    {
-      "name": "unknown_0170_034B_01A4B",
-      "address": "0x1A4B"
-    },
-    {
-      "name": "unknown_0170_0360_01A60",
-      "address": "0x1A60"
-    },
-    {
-      "name": "unknown_0170_039E_01A9E",
-      "address": "0x1A9E"
-    },
-    {
-      "name": "unknown_0170_03CA_01ACA",
-      "address": "0x1ACA"
-    },
-    {
-      "name": "unknown_0170_03EA_01AEA",
-      "address": "0x1AEA"
-    },
-    {
-      "name": "unknown_0170_0412_01B12",
-      "address": "0x1B12"
-    },
-    {
-      "name": "unknown_0170_041B_01B1B",
-      "address": "0x1B1B"
-    },
-    {
-      "name": "unknown_0170_0426_01B26",
-      "address": "0x1B26"
-    },
-    {
-      "name": "unknown_0170_04A9_01BA9",
-      "address": "0x1BA9"
-    },
-    {
-      "name": "unknown_0170_04E1_01BE1",
-      "address": "0x1BE1"
-    },
-    {
-      "name": "unknown_0170_0518_01C18",
-      "address": "0x1C18"
-    },
-    {
-      "name": "unknown_0170_0590_01C90",
-      "address": "0x1C90"
-    },
-    {
-      "name": "unknown_0170_05E9_01CE9",
-      "address": "0x1CE9"
-    },
-    {
-      "name": "unknown_0170_0604_01D04",
-      "address": "0x1D04"
-    },
-    {
-      "name": "unknown_0170_0612_01D12",
-      "address": "0x1D12"
-    },
-    {
-      "name": "unknown_0170_063E_01D3E",
-      "address": "0x1D3E"
-    },
-    {
-      "name": "unknown_0170_069A_01D9A",
-      "address": "0x1D9A"
-    },
-    {
-      "name": "unknown_0170_0771_01E71",
-      "address": "0x1E71"
-    }
-  ]
+    "total_functions": 120,
+    "success": 118,
+    "failed": 2,
+    "duration_seconds": 130.467497,
+    "avg_time_per_function": 1.0872291416666668
+  }
 }

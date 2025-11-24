@@ -1,111 +1,205 @@
-# 더블 드래곤 웹 복각 프로젝트 구조
+# Double Dragon 프로젝트 구조
 
-## 전체 디렉토리 구조
+**업데이트**: 2025-11-24
+**상태**: 정리 완료
+
+---
+
+## 📁 디렉토리 구조
 
 ```
 Double Dragon/
 │
-├── double-dragon-web/              # 🎮 웹 복각 프로젝트 (메인 작업 폴더)
-│   ├── src/
-│   │   ├── game/
-│   │   │   ├── entities/           # 플레이어, 적, 아이템 엔티티
-│   │   │   ├── systems/            # 충돌, AI, 물리 시스템
-│   │   │   ├── scenes/             # 메뉴, 레벨, 게임오버 씬
-│   │   │   └── assets/             # 에셋 로더 및 관리
-│   │   ├── engine/                 # 게임 엔진 코어
-│   │   ├── ui/                     # UI 컴포넌트
-│   │   └── utils/                  # 유틸리티 함수
-│   ├── public/
-│   │   ├── assets/
-│   │   │   ├── sprites/            # 추출/변환된 스프라이트
-│   │   │   ├── audio/              # 사운드/음악 파일
-│   │   │   └── fonts/              # 폰트 파일
-│   │   └── data/                   # 레벨, 설정 JSON 데이터
-│   ├── docs/                       # 개발 문서
-│   └── README.md                   # 프로젝트 메인 문서
+├── 📚 docs/                    ← 모든 문서 (메인)
+│   ├── function-analysis/      ← 함수 분석 (최신 작업)
+│   │   ├── MODE1_FUNCTIONS_SUMMARY.md
+│   │   ├── MODE2_COMPLETE_ANALYSIS.md (34KB - 핵심!)
+│   │   ├── RECOVERING_MISSED_FUNCTIONS.md
+│   │   ├── ANALYSIS_MISTAKES.md
+│   │   ├── CALL_GRAPH.md
+│   │   └── INDEX.md
+│   │
+│   ├── guides/                 ← 사용 가이드
+│   │   ├── DOSBOX_GUIDE.md
+│   │   └── GHIDRA_GUIDE.md
+│   │
+│   ├── reports/                ← Phase별 리포트
+│   │   ├── PHASE0_SETUP.md
+│   │   ├── PHASE1_DECOMPILE.md
+│   │   ├── PHASE3_ASSETS.md
+│   │   └── PHASE4_SPRITES.md
+│   │
+│   ├── technical/              ← 기술 분석
+│   │   ├── LZW_COMPRESSION.md
+│   │   ├── SPRITE_FORMAT.md
+│   │   └── EXECUTION_PATH.md
+│   │
+│   ├── archive/                ← 오래된 문서 보관
+│   │   ├── old-reports/        ← output/docs 이동됨
+│   │   └── early-analysis/     ← analysis 이동됨
+│   │
+│   ├── PYGHIDRA_GUIDE.md       ← pyghidra 사용법
+│   ├── PROGRESS.md             ← 전체 진행 상황
+│   └── WORK_PRINCIPLES.md      ← 작업 원칙
 │
-├── reference/                      # 📚 레퍼런스 파일 (읽기 전용)
-│   ├── dos-original/               # DOS 게임 원본 파일 (작업용 복사본)
-│   │   ├── DDMAIN.EXE             # 메인 실행 파일
-│   │   ├── *.EG1, *.EG2           # 캐릭터 스프라이트
-│   │   ├── LEVEL*.PC1             # 레벨 데이터
-│   │   ├── *.NW1~NW5              # 애니메이션 프레임
-│   │   └── ...
-│   └── DOS_ASSETS_ANALYSIS.md      # 에셋 분석 문서
+├── 💾 output/                  ← 생성된 결과물
+│   ├── analysis/               ← JSON 데이터
+│   │   ├── mode1_recovery_results.json
+│   │   ├── mode2_recovery_results.json
+│   │   └── function_analysis.json
+│   │
+│   ├── decompiled/             ← C 소스 코드 (137개)
+│   │   ├── FUN_1000_*.c        ← Ghidra 디컴파일
+│   │   └── ... (137 files)
+│   │
+│   ├── assets/                 ← 추출된 게임 에셋
+│   │   ├── sprites/
+│   │   ├── levels/
+│   │   └── raw_sprites/
+│   │
+│   └── checkpoints/            ← Phase별 체크포인트
+│       ├── phase1.json
+│       ├── phase2.json
+│       └── phase3.json
 │
-├── archive/                        # 📦 원본 백업 (보관용)
-│   ├── Ddragon_1996_original.tar.gz          # 1996년 버전 백업
-│   ├── Double_Dragon_DOS_Files_EN.zip        # 2024년 EN 버전 원본
-│   └── README.md                              # 아카이브 설명 문서
+├── 📦 reference/               ← 원본 바이너리
+│   └── dos-original/
+│       ├── DDMAIN.EXE          ← 메인 실행 파일
+│       ├── *.EG1               ← 압축된 스프라이트
+│       └── *.Z                 ← LZW 압축 파일
 │
-├── Ddragon/                        # ⚠️ 삭제 예정 (archive에 백업됨)
-│   └── [1996년 버전 파일들...]
+├── 🔧 ghidra-project/          ← Ghidra 프로젝트
+│   └── DoubleDragon/
 │
-├── Double_Dragon_DOS_Files_EN/     # ⚠️ 삭제 예정 (reference에 복사됨)
-│   └── [2024년 EN 버전 파일들...]
+├── 🐍 Python 스크립트 (루트)
+│   ├── recover_all_mode1_functions.py
+│   ├── recover_all_mode2_functions.py
+│   ├── find_main_loop.py
+│   └── ... (분석 스크립트들)
 │
-└── PROJECT_STRUCTURE.md            # 이 문서
+├── 📦 archive/                 ← 기타 아카이브
+│
+├── 🌐 double-dragon-web/       ← 웹 포팅 (미사용)
+├── 🔨 tools/                   ← 외부 도구
+├── 📊 spice86-dumps/           ← 디버거 덤프
+└── 📝 README.md                ← 프로젝트 설명
+
 ```
 
-## 폴더별 상세 설명
+---
 
-### 🎮 double-dragon-web/
-**용도**: 웹 복각 프로젝트의 메인 작업 폴더
-**상태**: 개발 진행 중
-**기술**: TypeScript + Phaser3/PixiJS (예정)
+## 🎯 주요 문서 위치
 
-### 📚 reference/
-**용도**: DOS 원본 게임 파일 레퍼런스
-**상태**: 읽기 전용
-**내용**: Double_Dragon_DOS_Files_EN의 DD1 폴더 복사본
-**DOSBox 실행**:
+### 시작하기
+- `README.md` - 프로젝트 개요
+- `docs/PROGRESS.md` - 전체 진행 상황
+- `docs/WORK_PRINCIPLES.md` - 작업 원칙
+
+### 최신 분석 결과 (2025-11-24)
+- `docs/function-analysis/MODE2_COMPLETE_ANALYSIS.md` (34KB) ⭐⭐⭐
+  - Mode 1 vs Mode 2 완전 비교
+  - CGA vs EGA 그래픽 시스템
+  - VGA 하드웨어 프로그래밍
+  - 22개 함수 복구 과정
+
+- `docs/function-analysis/MODE1_FUNCTIONS_SUMMARY.md`
+  - Mode 1 (CGA) 11개 함수 분석
+
+- `docs/function-analysis/CALL_GRAPH.md`
+  - 메인 게임 루프 구조
+  - 디스패처 호출 지점
+
+### 방법론
+- `docs/function-analysis/RECOVERING_MISSED_FUNCTIONS.md`
+  - Ghidra가 놓친 함수 복구 3단계
+
+- `docs/function-analysis/ANALYSIS_MISTAKES.md`
+  - 실수 기록 및 교훈
+
+### 기술 문서
+- `docs/technical/LZW_COMPRESSION.md` - LZW 압축 해제
+- `docs/technical/SPRITE_FORMAT.md` - 스프라이트 포맷
+- `docs/PYGHIDRA_GUIDE.md` - pyghidra 사용법
+
+---
+
+## 📊 통계 (2025-11-24 기준)
+
+### 코드
+- **디컴파일된 C 파일**: 137개
+  - 원래 Ghidra 인식: 118개
+  - Mode 1 복구: 10개
+  - Mode 2 복구: 10개
+
+### 문서
+- **Markdown 문서**: ~4,000줄
+- **핵심 분석 문서**: 10개
+- **기술 문서**: 3개
+- **가이드**: 3개
+
+### 데이터
+- **JSON 파일**: 5개
+- **추출 에셋**: 수십 개
+- **체크포인트**: 3개
+
+---
+
+## 🗂️ 아카이브된 내용
+
+### docs/archive/old-reports/
+오래된 Phase 리포트 (output/docs에서 이동):
+- phase0_report.md
+- phase1_report.md
+- phase3_assets_analysis.md
+- phase4_execution_path.md
+
+### docs/archive/early-analysis/
+초기 바이너리 분석 (analysis에서 이동):
+- BINARY_ANALYSIS_REPORT.md
+- DECOMPRESSION_FINDINGS.md
+- 초기 분석 스크립트들
+
+**참고**: 필요시 참조 가능, 최신 문서는 상위 디렉토리 사용
+
+---
+
+## 🚀 빠른 시작
+
+### 1. 최신 분석 결과 보기
 ```bash
-cd reference/dos-original
-/opt/homebrew/bin/dosbox-x DDMAIN.EXE -exit
+cat "docs/function-analysis/MODE2_COMPLETE_ANALYSIS.md"
 ```
 
-### 📦 archive/
-**용도**: 원본 파일 백업 보관
-**상태**: 보관 전용 (수정 금지)
-**내용**:
-- 1996년 버전 (tar.gz)
-- 2024년 EN 버전 (zip)
-- 두 버전 비교 문서
-
-## 정리 예정 항목
-
-다음 항목들은 정리가 완료되어 삭제 예정입니다:
-
-- ❌ `Ddragon/` - archive/Ddragon_1996_original.tar.gz에 백업됨
-- ❌ `Double_Dragon_DOS_Files_EN/` - archive에 백업, reference에 복사됨
-
-삭제 전 확인 사항:
+### 2. 전체 진행 상황 확인
 ```bash
-# 아카이브 확인
-ls -lh archive/
-
-# 레퍼런스 확인
-ls -lh reference/dos-original/
+cat "docs/PROGRESS.md"
 ```
 
-## 개발 워크플로우
+### 3. 함수 목록 보기
+```bash
+cat "docs/function-analysis/INDEX.md"
+```
 
-1. **에셋 분석**: `reference/dos-original/` 파일들을 분석
-2. **에셋 추출**: DOS 파일에서 그래픽/데이터 추출
-3. **웹 변환**: `double-dragon-web/public/assets/`에 변환된 파일 저장
-4. **개발**: `double-dragon-web/src/`에서 게임 로직 구현
-5. **테스트**: 원본 DOS 게임과 비교하며 테스트
+### 4. 디컴파일된 코드 보기
+```bash
+ls output/decompiled/
+```
 
-## 다음 단계
+---
 
-1. [ ] Ddragon 및 Double_Dragon_DOS_Files_EN 폴더 삭제 확인
-2. [ ] 기술 스택 결정 (Phaser 3 vs PixiJS)
-3. [ ] package.json 및 개발 환경 설정
-4. [ ] DOS 에셋 추출 도구 조사
-5. [ ] 첫 번째 프로토타입 개발 시작
+## 🎓 다음 단계
 
-## 참고 문서
+1. **메인 게임 루프 상세 분석**
+   - `docs/function-analysis/CALL_GRAPH.md` 참조
+   - FUN_1000_3830, FUN_1000_0360 등
 
-- 프로젝트 개요: `double-dragon-web/README.md`
-- 에셋 분석: `reference/DOS_ASSETS_ANALYSIS.md`
-- 아카이브 정보: `archive/README.md`
+2. **디스패처 호출 지점 분석**
+   - 11개 디스패처가 언제 호출되는지
+
+3. **나머지 함수 분석**
+   - 137개 중 주요 함수들
+
+---
+
+**정리 완료**: 2025-11-24
+**정리 방식**: 최소 정리 (중복 제거, 아카이브 이동)
