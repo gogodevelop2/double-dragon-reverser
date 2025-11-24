@@ -15,8 +15,8 @@
 
 ## 📊 현재 진행 상황
 
-**단계**: Phase 4 완료 → Phase 5 준비
-**진행률**: 85%
+**단계**: Phase 4 완료 → 알고리즘 문서화 완료 → Phase 5 준비
+**진행률**: 95%
 
 | Phase | 작업 | 상태 |
 |-------|------|------|
@@ -24,9 +24,10 @@
 | 1 | 코드 추출 (118개 함수) | ✅ 완료 |
 | 2 | 코드 분석 및 설계 | ✅ 완료 |
 | 3 | 에셋 분석 (LZW 압축) | ✅ 완료 |
-| 4 | 게임 로직 완전 분석 | ✅ 완료 |
+| 4 | 게임 로직 완전 분석 (161개 함수) | ✅ 완료 |
 | 4.5 | 호출 그래프 복구 (+15개) | ✅ 완료 |
 | 4.6 | 0x18c6 점프 테이블 (+9개) | ✅ 완료 |
+| 4.7 | 알고리즘 문서화 (5개 문서) | ✅ 완료 |
 | 5 | C++ 구현 | ⏳ 대기 |
 | 6 | 통합 검증 | ⏳ 대기 |
 
@@ -78,6 +79,13 @@ Double Dragon/
 │   ├── PROGRESS.md            # 진행 상황
 │   ├── MASTER_PLAN.md         # 실행 계획
 │   │
+│   ├── algorithms/            # ⭐ 알고리즘 문서 (5개, ~10,100줄)
+│   │   ├── LZW_COMPRESSION.md       # Unix compress 알고리즘
+│   │   ├── RLE_COMPRESSION.md       # PackBits RLE 압축
+│   │   ├── SPRITE_BLITTING.md       # CGA/EGA 스프라이트 렌더링
+│   │   ├── MANHATTAN_AI.md          # 맨해튼 거리 AI 경로 탐색
+│   │   └── VSYNC_TIMING.md          # VSync 프레임 동기화
+│   │
 │   ├── technical/             # 기술 분석
 │   │   ├── EXECUTION_PATH.md  # 실행 경로 분석
 │   │   ├── LZW_COMPRESSION.md # LZW 압축 분석
@@ -88,6 +96,9 @@ Double Dragon/
 │   │   ├── PHASE1_DECOMPILE.md
 │   │   ├── PHASE3_ASSETS.md
 │   │   └── PHASE4_SPRITES.md
+│   │
+│   ├── methodology/           # 방법론 문서
+│   │   └── 01_PROCESS_OVERVIEW.md  # 5단계 리버스 엔지니어링 프로세스
 │   │
 │   └── guides/                # 도구 가이드
 │       ├── GHIDRA_GUIDE.md
@@ -183,15 +194,65 @@ entry() → FUN_1000_0660() → FUN_1000_0b94()
 
 ---
 
+## 📚 알고리즘 문서 (Phase 4.7 완료) ⭐
+
+**5개 핵심 알고리즘 완전 분석** (~10,100줄):
+
+### 1. [LZW 압축](docs/algorithms/LZW_COMPRESSION.md) (2,500줄)
+- **Unix compress 호환** 포맷
+- MSB-first 비트 읽기
+- 36개 .EG1 파일 압축 해제
+- C/Python/JavaScript 구현
+
+### 2. [RLE 압축](docs/algorithms/RLE_COMPRESSION.md) (1,600줄)
+- **PackBits** 스캔라인 압축
+- 800 decompressions/frame
+- 3:1 평균 압축률
+- 실시간 스프라이트 렌더링
+
+### 3. [스프라이트 블리팅](docs/algorithms/SPRITE_BLITTING.md) (2,100줄)
+- **CGA/EGA 듀얼 모드** 렌더링
+- VGA 레지스터 프로그래밍
+- 투명도 마스킹 (XOR 기반)
+- Planar-to-Chunky 변환
+
+### 4. [맨해튼 거리 AI](docs/algorithms/MANHATTAN_AI.md) (1,900줄)
+- **상태 머신** 점프 테이블 @ 0x16ef
+- 적 AI 경로 탐색
+- 5가지 행동 패턴 (추격, 포위, 후퇴 등)
+- 0.085ms/frame (5 enemies)
+
+### 5. [VSync 타이밍](docs/algorithms/VSYNC_TIMING.md) (2,000줄)
+- **Port 0x3DA** 폴링
+- PIT 타이머 (291 Hz vs 18.2 Hz)
+- 더블 버퍼링
+- 60 FPS 프레임 동기화
+
+**특징**:
+- 언어 중립적 설명 (의사코드)
+- 3개 언어 구현 (C, Python, JavaScript)
+- 성능 분석 및 최적화 기법
+- 테스트 전략 및 트러블슈팅
+
+---
+
 ## 📖 주요 문서
 
 ### 시작하기
 - [진행 상황](docs/PROGRESS.md) - 현재 진행 상황
 - [작업 원칙](docs/WORK_PRINCIPLES.md) - ⭐ 필독
+- [리버스 엔지니어링 프로세스](docs/methodology/01_PROCESS_OVERVIEW.md) - ⭐ 5단계 방법론
+
+### 알고리즘 문서 ⭐ **신규**
+- [LZW 압축](docs/algorithms/LZW_COMPRESSION.md) - Unix compress 알고리즘
+- [RLE 압축](docs/algorithms/RLE_COMPRESSION.md) - PackBits 압축
+- [스프라이트 블리팅](docs/algorithms/SPRITE_BLITTING.md) - CGA/EGA 렌더링
+- [맨해튼 거리 AI](docs/algorithms/MANHATTAN_AI.md) - 적 AI 경로 탐색
+- [VSync 타이밍](docs/algorithms/VSYNC_TIMING.md) - 프레임 동기화
 
 ### 기술 분석
-- [렌더링 시스템](docs/technical/RENDERING_SYSTEM.md) ⭐ **신규**
-- [메모리 맵](docs/technical/MEMORY_MAP.md) ⭐ **신규**
+- [렌더링 시스템](docs/technical/RENDERING_SYSTEM.md)
+- [메모리 맵](docs/technical/MEMORY_MAP.md)
 - [실행 경로 분석](docs/technical/EXECUTION_PATH.md)
 - [LZW 압축 분석](docs/technical/LZW_COMPRESSION.md)
 - [스프라이트 포맷](docs/technical/SPRITE_FORMAT.md)
@@ -200,7 +261,7 @@ entry() → FUN_1000_0660() → FUN_1000_0b94()
 - [Phase 0: 환경 준비](docs/reports/PHASE0_SETUP.md)
 - [Phase 1: 코드 추출](docs/reports/PHASE1_DECOMPILE.md)
 - [Phase 3: 에셋 분석](docs/reports/PHASE3_ASSETS.md)
-- [Phase 4: 게임 로직 완전 분석](docs/reports/PHASE4_COMPLETE.md) ⭐ **신규**
+- [Phase 4: 게임 로직 완전 분석](docs/reports/PHASE4_COMPLETE.md)
 
 ---
 
@@ -230,4 +291,4 @@ entry() → FUN_1000_0660() → FUN_1000_0b94()
 
 **생성일**: 2025-11-24
 **마지막 업데이트**: 2025-11-24
-**상태**: ✅ Phase 4 완료 (85%) → Phase 5 준비
+**상태**: ✅ Phase 4 완료 + 알고리즘 문서화 완료 (95%) → Phase 5 준비
