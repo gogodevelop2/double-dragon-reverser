@@ -11,17 +11,31 @@
 
 ## 📊 현재 진행 상황
 
-**단계**: 계획 수립 완료
-**진행률**: 5%
+**단계**: Phase 0 완료, Phase 1 진행 중
+**진행률**: 15%
 
+### 완료된 작업
 - [x] 프로젝트 구조 설계
 - [x] Ghidra 분석 환경 구축
-- [x] Spice86 메모리 덤프 수집
-- [x] 마스터 플랜 수립
-- [ ] GhidraMCP 자동화 시스템 구축
-- [ ] 전체 코드 추출
-- [ ] 에셋 추출
-- [ ] 게임 로직 재구성
+- [x] Spice86 메모리 덤프 수집 (188개 함수 발견)
+- [x] 마스터 플랜 수립 (v2.0)
+- [x] **Phase 0: 환경 준비 완료**
+  - Java JDK 21 설정
+  - GhidraMCP 서버 연결 테스트
+  - 3개 바이너리 분석 완료 (DDMAIN.EXE, DUAL.EXE, SHOW.EXE)
+- [x] GhidraMCP MCP 서버 등록 완료
+- [x] GitHub 저장소 생성
+
+### 진행 중
+- [ ] **Phase 1: 전체 코드 추출**
+  - GhidraMCP MCP 도구로 188개 함수 디컴파일
+  - C 코드 파일로 저장
+  - 메타데이터 생성
+
+### 대기 중
+- [ ] Phase 2: 코드 분석 및 C++ 재구성
+- [ ] Phase 3: 에셋 추출
+- [ ] Phase 4: 통합 및 검증
 
 ## 🛠️ 기술 스택
 
@@ -70,40 +84,31 @@ Double Dragon/
 
 ```bash
 # macOS
-brew install ghidra
+brew install ghidra openjdk@21
 brew install python@3.13
-brew install cmake
+brew install uv
 
 # Python 가상환경
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install mcp anyio
 
-# GhidraMCP
-brew install uv
+# 환경 변수 설정
 export GHIDRA_INSTALL_DIR="/opt/homebrew/Cellar/ghidra/11.4.2/libexec"
+export JAVA_HOME="/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"
 ```
 
-### 실행 계획
+### Phase 1 진행 방법
 
-전체 프로세스는 **1-2일** 소요 예상:
+**현재 상태**: GhidraMCP MCP 서버 등록 완료
 
-```bash
-# Phase 0: 환경 준비 (10분)
-python start.py --phase 0
+**다음 단계**:
+1. Claude Code 재시작 (MCP 서버 활성화)
+2. GhidraMCP MCP 도구를 사용하여 자동으로 188개 함수 디컴파일
+3. 결과는 `output/decompiled/` 디렉토리에 저장
 
-# Phase 1: 전체 코드 추출 (1-2시간)
-python start.py --phase 1
-
-# Phase 2: 코드 분석 및 재구성 (4-6시간)
-python start.py --phase 2
-
-# Phase 3: 에셋 추출 (2-4시간)
-python start.py --phase 3
-
-# Phase 4: 통합 및 검증 (2-3시간)
-python start.py --phase 4
-```
+**MCP 설정 위치**: `~/.config/claude-code/mcp_config.json`
 
 자세한 내용은 [docs/SIMPLE_REVERSER_PLAN.md](docs/SIMPLE_REVERSER_PLAN.md) 참조
 

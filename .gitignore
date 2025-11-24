@@ -24,7 +24,8 @@ spice86-dumps/*/spice86dumpMemoryDump.bin
 .LSOverride
 
 # 작업 임시 폴더
-output/
+output/decompiled/*.c
+output/decompiled/*.json
 temp/
 build/
 
@@ -44,6 +45,9 @@ tools/Spice86/src/*/obj/
 
 # Spice86 전체 (nested git repo)
 tools/Spice86/
+
+# pyghidra-mcp 프로젝트 (임시 파일)
+reference/dos-original/pyghidra_mcp_projects/
 
 # 로그
 *.log
