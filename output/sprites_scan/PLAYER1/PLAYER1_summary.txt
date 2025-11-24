@@ -1,0 +1,1924 @@
+파일: PLAYER1.dat
+크기: 2711 bytes
+생성된 이미지: 384개
+
+- PLAYER1_off0000_16x24_cga_mode4_pal1.png
+  오프셋: 0x0000
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0000_16x24_cga_mode4_pal0.png
+  오프셋: 0x0000
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0000_16x24_cga_planar_pal1.png
+  오프셋: 0x0000
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0000_16x24_cga_planar_pal0.png
+  오프셋: 0x0000
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0000_16x24_16plane_interleaved.png
+  오프셋: 0x0000
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0000_16x24_chunky_8bit.png
+  오프셋: 0x0000
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0004_16x24_cga_mode4_pal1.png
+  오프셋: 0x0004
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0004_16x24_cga_mode4_pal0.png
+  오프셋: 0x0004
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0004_16x24_cga_planar_pal1.png
+  오프셋: 0x0004
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0004_16x24_cga_planar_pal0.png
+  오프셋: 0x0004
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0004_16x24_16plane_interleaved.png
+  오프셋: 0x0004
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0004_16x24_chunky_8bit.png
+  오프셋: 0x0004
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0008_16x24_cga_mode4_pal1.png
+  오프셋: 0x0008
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0008_16x24_cga_mode4_pal0.png
+  오프셋: 0x0008
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0008_16x24_cga_planar_pal1.png
+  오프셋: 0x0008
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0008_16x24_cga_planar_pal0.png
+  오프셋: 0x0008
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0008_16x24_16plane_interleaved.png
+  오프셋: 0x0008
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0008_16x24_chunky_8bit.png
+  오프셋: 0x0008
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off000c_16x24_cga_mode4_pal1.png
+  오프셋: 0x000c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off000c_16x24_cga_mode4_pal0.png
+  오프셋: 0x000c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off000c_16x24_cga_planar_pal1.png
+  오프셋: 0x000c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off000c_16x24_cga_planar_pal0.png
+  오프셋: 0x000c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off000c_16x24_16plane_interleaved.png
+  오프셋: 0x000c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off000c_16x24_chunky_8bit.png
+  오프셋: 0x000c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0010_16x24_cga_mode4_pal1.png
+  오프셋: 0x0010
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0010_16x24_cga_mode4_pal0.png
+  오프셋: 0x0010
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0010_16x24_cga_planar_pal1.png
+  오프셋: 0x0010
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0010_16x24_cga_planar_pal0.png
+  오프셋: 0x0010
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0010_16x24_16plane_interleaved.png
+  오프셋: 0x0010
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0010_16x24_chunky_8bit.png
+  오프셋: 0x0010
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0014_16x24_cga_mode4_pal1.png
+  오프셋: 0x0014
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0014_16x24_cga_mode4_pal0.png
+  오프셋: 0x0014
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0014_16x24_cga_planar_pal1.png
+  오프셋: 0x0014
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0014_16x24_cga_planar_pal0.png
+  오프셋: 0x0014
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0014_16x24_16plane_interleaved.png
+  오프셋: 0x0014
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0014_16x24_chunky_8bit.png
+  오프셋: 0x0014
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0018_16x24_cga_mode4_pal1.png
+  오프셋: 0x0018
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0018_16x24_cga_mode4_pal0.png
+  오프셋: 0x0018
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0018_16x24_cga_planar_pal1.png
+  오프셋: 0x0018
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0018_16x24_cga_planar_pal0.png
+  오프셋: 0x0018
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0018_16x24_16plane_interleaved.png
+  오프셋: 0x0018
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0018_16x24_chunky_8bit.png
+  오프셋: 0x0018
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off001c_16x24_cga_mode4_pal1.png
+  오프셋: 0x001c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off001c_16x24_cga_mode4_pal0.png
+  오프셋: 0x001c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off001c_16x24_cga_planar_pal1.png
+  오프셋: 0x001c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off001c_16x24_cga_planar_pal0.png
+  오프셋: 0x001c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off001c_16x24_16plane_interleaved.png
+  오프셋: 0x001c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off001c_16x24_chunky_8bit.png
+  오프셋: 0x001c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0020_16x24_cga_mode4_pal1.png
+  오프셋: 0x0020
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0020_16x24_cga_mode4_pal0.png
+  오프셋: 0x0020
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0020_16x24_cga_planar_pal1.png
+  오프셋: 0x0020
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0020_16x24_cga_planar_pal0.png
+  오프셋: 0x0020
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0020_16x24_16plane_interleaved.png
+  오프셋: 0x0020
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0020_16x24_chunky_8bit.png
+  오프셋: 0x0020
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0024_16x24_cga_mode4_pal1.png
+  오프셋: 0x0024
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0024_16x24_cga_mode4_pal0.png
+  오프셋: 0x0024
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0024_16x24_cga_planar_pal1.png
+  오프셋: 0x0024
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0024_16x24_cga_planar_pal0.png
+  오프셋: 0x0024
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0024_16x24_16plane_interleaved.png
+  오프셋: 0x0024
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0024_16x24_chunky_8bit.png
+  오프셋: 0x0024
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0028_16x24_cga_mode4_pal1.png
+  오프셋: 0x0028
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0028_16x24_cga_mode4_pal0.png
+  오프셋: 0x0028
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0028_16x24_cga_planar_pal1.png
+  오프셋: 0x0028
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0028_16x24_cga_planar_pal0.png
+  오프셋: 0x0028
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0028_16x24_16plane_interleaved.png
+  오프셋: 0x0028
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0028_16x24_chunky_8bit.png
+  오프셋: 0x0028
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off002c_16x24_cga_mode4_pal1.png
+  오프셋: 0x002c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off002c_16x24_cga_mode4_pal0.png
+  오프셋: 0x002c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off002c_16x24_cga_planar_pal1.png
+  오프셋: 0x002c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off002c_16x24_cga_planar_pal0.png
+  오프셋: 0x002c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off002c_16x24_16plane_interleaved.png
+  오프셋: 0x002c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off002c_16x24_chunky_8bit.png
+  오프셋: 0x002c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0030_16x24_cga_mode4_pal1.png
+  오프셋: 0x0030
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0030_16x24_cga_mode4_pal0.png
+  오프셋: 0x0030
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0030_16x24_cga_planar_pal1.png
+  오프셋: 0x0030
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0030_16x24_cga_planar_pal0.png
+  오프셋: 0x0030
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0030_16x24_16plane_interleaved.png
+  오프셋: 0x0030
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0030_16x24_chunky_8bit.png
+  오프셋: 0x0030
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0034_16x24_cga_mode4_pal1.png
+  오프셋: 0x0034
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0034_16x24_cga_mode4_pal0.png
+  오프셋: 0x0034
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0034_16x24_cga_planar_pal1.png
+  오프셋: 0x0034
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0034_16x24_cga_planar_pal0.png
+  오프셋: 0x0034
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0034_16x24_16plane_interleaved.png
+  오프셋: 0x0034
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0034_16x24_chunky_8bit.png
+  오프셋: 0x0034
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0038_16x24_cga_mode4_pal1.png
+  오프셋: 0x0038
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0038_16x24_cga_mode4_pal0.png
+  오프셋: 0x0038
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0038_16x24_cga_planar_pal1.png
+  오프셋: 0x0038
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0038_16x24_cga_planar_pal0.png
+  오프셋: 0x0038
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0038_16x24_16plane_interleaved.png
+  오프셋: 0x0038
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0038_16x24_chunky_8bit.png
+  오프셋: 0x0038
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off003c_16x24_cga_mode4_pal1.png
+  오프셋: 0x003c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off003c_16x24_cga_mode4_pal0.png
+  오프셋: 0x003c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off003c_16x24_cga_planar_pal1.png
+  오프셋: 0x003c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off003c_16x24_cga_planar_pal0.png
+  오프셋: 0x003c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off003c_16x24_16plane_interleaved.png
+  오프셋: 0x003c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off003c_16x24_chunky_8bit.png
+  오프셋: 0x003c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0040_16x24_cga_mode4_pal1.png
+  오프셋: 0x0040
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0040_16x24_cga_mode4_pal0.png
+  오프셋: 0x0040
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0040_16x24_cga_planar_pal1.png
+  오프셋: 0x0040
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0040_16x24_cga_planar_pal0.png
+  오프셋: 0x0040
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0040_16x24_16plane_interleaved.png
+  오프셋: 0x0040
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0040_16x24_chunky_8bit.png
+  오프셋: 0x0040
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0044_16x24_cga_mode4_pal1.png
+  오프셋: 0x0044
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0044_16x24_cga_mode4_pal0.png
+  오프셋: 0x0044
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0044_16x24_cga_planar_pal1.png
+  오프셋: 0x0044
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0044_16x24_cga_planar_pal0.png
+  오프셋: 0x0044
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0044_16x24_16plane_interleaved.png
+  오프셋: 0x0044
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0044_16x24_chunky_8bit.png
+  오프셋: 0x0044
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0048_16x24_cga_mode4_pal1.png
+  오프셋: 0x0048
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0048_16x24_cga_mode4_pal0.png
+  오프셋: 0x0048
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0048_16x24_cga_planar_pal1.png
+  오프셋: 0x0048
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0048_16x24_cga_planar_pal0.png
+  오프셋: 0x0048
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0048_16x24_16plane_interleaved.png
+  오프셋: 0x0048
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0048_16x24_chunky_8bit.png
+  오프셋: 0x0048
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off004c_16x24_cga_mode4_pal1.png
+  오프셋: 0x004c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off004c_16x24_cga_mode4_pal0.png
+  오프셋: 0x004c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off004c_16x24_cga_planar_pal1.png
+  오프셋: 0x004c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off004c_16x24_cga_planar_pal0.png
+  오프셋: 0x004c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off004c_16x24_16plane_interleaved.png
+  오프셋: 0x004c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off004c_16x24_chunky_8bit.png
+  오프셋: 0x004c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0050_16x24_cga_mode4_pal1.png
+  오프셋: 0x0050
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0050_16x24_cga_mode4_pal0.png
+  오프셋: 0x0050
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0050_16x24_cga_planar_pal1.png
+  오프셋: 0x0050
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0050_16x24_cga_planar_pal0.png
+  오프셋: 0x0050
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0050_16x24_16plane_interleaved.png
+  오프셋: 0x0050
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0050_16x24_chunky_8bit.png
+  오프셋: 0x0050
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0054_16x24_cga_mode4_pal1.png
+  오프셋: 0x0054
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0054_16x24_cga_mode4_pal0.png
+  오프셋: 0x0054
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0054_16x24_cga_planar_pal1.png
+  오프셋: 0x0054
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0054_16x24_cga_planar_pal0.png
+  오프셋: 0x0054
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0054_16x24_16plane_interleaved.png
+  오프셋: 0x0054
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0054_16x24_chunky_8bit.png
+  오프셋: 0x0054
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0058_16x24_cga_mode4_pal1.png
+  오프셋: 0x0058
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0058_16x24_cga_mode4_pal0.png
+  오프셋: 0x0058
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0058_16x24_cga_planar_pal1.png
+  오프셋: 0x0058
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0058_16x24_cga_planar_pal0.png
+  오프셋: 0x0058
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0058_16x24_16plane_interleaved.png
+  오프셋: 0x0058
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0058_16x24_chunky_8bit.png
+  오프셋: 0x0058
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off005c_16x24_cga_mode4_pal1.png
+  오프셋: 0x005c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off005c_16x24_cga_mode4_pal0.png
+  오프셋: 0x005c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off005c_16x24_cga_planar_pal1.png
+  오프셋: 0x005c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off005c_16x24_cga_planar_pal0.png
+  오프셋: 0x005c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off005c_16x24_16plane_interleaved.png
+  오프셋: 0x005c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off005c_16x24_chunky_8bit.png
+  오프셋: 0x005c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0060_16x24_cga_mode4_pal1.png
+  오프셋: 0x0060
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0060_16x24_cga_mode4_pal0.png
+  오프셋: 0x0060
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0060_16x24_cga_planar_pal1.png
+  오프셋: 0x0060
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0060_16x24_cga_planar_pal0.png
+  오프셋: 0x0060
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0060_16x24_16plane_interleaved.png
+  오프셋: 0x0060
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0060_16x24_chunky_8bit.png
+  오프셋: 0x0060
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0064_16x24_cga_mode4_pal1.png
+  오프셋: 0x0064
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0064_16x24_cga_mode4_pal0.png
+  오프셋: 0x0064
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0064_16x24_cga_planar_pal1.png
+  오프셋: 0x0064
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0064_16x24_cga_planar_pal0.png
+  오프셋: 0x0064
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0064_16x24_16plane_interleaved.png
+  오프셋: 0x0064
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0064_16x24_chunky_8bit.png
+  오프셋: 0x0064
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0068_16x24_cga_mode4_pal1.png
+  오프셋: 0x0068
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0068_16x24_cga_mode4_pal0.png
+  오프셋: 0x0068
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0068_16x24_cga_planar_pal1.png
+  오프셋: 0x0068
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0068_16x24_cga_planar_pal0.png
+  오프셋: 0x0068
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0068_16x24_16plane_interleaved.png
+  오프셋: 0x0068
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0068_16x24_chunky_8bit.png
+  오프셋: 0x0068
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off006c_16x24_cga_mode4_pal1.png
+  오프셋: 0x006c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off006c_16x24_cga_mode4_pal0.png
+  오프셋: 0x006c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off006c_16x24_cga_planar_pal1.png
+  오프셋: 0x006c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off006c_16x24_cga_planar_pal0.png
+  오프셋: 0x006c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off006c_16x24_16plane_interleaved.png
+  오프셋: 0x006c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off006c_16x24_chunky_8bit.png
+  오프셋: 0x006c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0070_16x24_cga_mode4_pal1.png
+  오프셋: 0x0070
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0070_16x24_cga_mode4_pal0.png
+  오프셋: 0x0070
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0070_16x24_cga_planar_pal1.png
+  오프셋: 0x0070
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0070_16x24_cga_planar_pal0.png
+  오프셋: 0x0070
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0070_16x24_16plane_interleaved.png
+  오프셋: 0x0070
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0070_16x24_chunky_8bit.png
+  오프셋: 0x0070
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0074_16x24_cga_mode4_pal1.png
+  오프셋: 0x0074
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0074_16x24_cga_mode4_pal0.png
+  오프셋: 0x0074
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0074_16x24_cga_planar_pal1.png
+  오프셋: 0x0074
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0074_16x24_cga_planar_pal0.png
+  오프셋: 0x0074
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0074_16x24_16plane_interleaved.png
+  오프셋: 0x0074
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0074_16x24_chunky_8bit.png
+  오프셋: 0x0074
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0078_16x24_cga_mode4_pal1.png
+  오프셋: 0x0078
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0078_16x24_cga_mode4_pal0.png
+  오프셋: 0x0078
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0078_16x24_cga_planar_pal1.png
+  오프셋: 0x0078
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0078_16x24_cga_planar_pal0.png
+  오프셋: 0x0078
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0078_16x24_16plane_interleaved.png
+  오프셋: 0x0078
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0078_16x24_chunky_8bit.png
+  오프셋: 0x0078
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off007c_16x24_cga_mode4_pal1.png
+  오프셋: 0x007c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off007c_16x24_cga_mode4_pal0.png
+  오프셋: 0x007c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off007c_16x24_cga_planar_pal1.png
+  오프셋: 0x007c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off007c_16x24_cga_planar_pal0.png
+  오프셋: 0x007c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off007c_16x24_16plane_interleaved.png
+  오프셋: 0x007c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off007c_16x24_chunky_8bit.png
+  오프셋: 0x007c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0080_16x24_cga_mode4_pal1.png
+  오프셋: 0x0080
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0080_16x24_cga_mode4_pal0.png
+  오프셋: 0x0080
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0080_16x24_cga_planar_pal1.png
+  오프셋: 0x0080
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0080_16x24_cga_planar_pal0.png
+  오프셋: 0x0080
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0080_16x24_16plane_interleaved.png
+  오프셋: 0x0080
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0080_16x24_chunky_8bit.png
+  오프셋: 0x0080
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0084_16x24_cga_mode4_pal1.png
+  오프셋: 0x0084
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0084_16x24_cga_mode4_pal0.png
+  오프셋: 0x0084
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0084_16x24_cga_planar_pal1.png
+  오프셋: 0x0084
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0084_16x24_cga_planar_pal0.png
+  오프셋: 0x0084
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0084_16x24_16plane_interleaved.png
+  오프셋: 0x0084
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0084_16x24_chunky_8bit.png
+  오프셋: 0x0084
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0088_16x24_cga_mode4_pal1.png
+  오프셋: 0x0088
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0088_16x24_cga_mode4_pal0.png
+  오프셋: 0x0088
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0088_16x24_cga_planar_pal1.png
+  오프셋: 0x0088
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0088_16x24_cga_planar_pal0.png
+  오프셋: 0x0088
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0088_16x24_16plane_interleaved.png
+  오프셋: 0x0088
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0088_16x24_chunky_8bit.png
+  오프셋: 0x0088
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off008c_16x24_cga_mode4_pal1.png
+  오프셋: 0x008c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off008c_16x24_cga_mode4_pal0.png
+  오프셋: 0x008c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off008c_16x24_cga_planar_pal1.png
+  오프셋: 0x008c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off008c_16x24_cga_planar_pal0.png
+  오프셋: 0x008c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off008c_16x24_16plane_interleaved.png
+  오프셋: 0x008c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off008c_16x24_chunky_8bit.png
+  오프셋: 0x008c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0090_16x24_cga_mode4_pal1.png
+  오프셋: 0x0090
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0090_16x24_cga_mode4_pal0.png
+  오프셋: 0x0090
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0090_16x24_cga_planar_pal1.png
+  오프셋: 0x0090
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0090_16x24_cga_planar_pal0.png
+  오프셋: 0x0090
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0090_16x24_16plane_interleaved.png
+  오프셋: 0x0090
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0090_16x24_chunky_8bit.png
+  오프셋: 0x0090
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0094_16x24_cga_mode4_pal1.png
+  오프셋: 0x0094
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0094_16x24_cga_mode4_pal0.png
+  오프셋: 0x0094
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0094_16x24_cga_planar_pal1.png
+  오프셋: 0x0094
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0094_16x24_cga_planar_pal0.png
+  오프셋: 0x0094
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0094_16x24_16plane_interleaved.png
+  오프셋: 0x0094
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0094_16x24_chunky_8bit.png
+  오프셋: 0x0094
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off0098_16x24_cga_mode4_pal1.png
+  오프셋: 0x0098
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off0098_16x24_cga_mode4_pal0.png
+  오프셋: 0x0098
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off0098_16x24_cga_planar_pal1.png
+  오프셋: 0x0098
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off0098_16x24_cga_planar_pal0.png
+  오프셋: 0x0098
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off0098_16x24_16plane_interleaved.png
+  오프셋: 0x0098
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off0098_16x24_chunky_8bit.png
+  오프셋: 0x0098
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off009c_16x24_cga_mode4_pal1.png
+  오프셋: 0x009c
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off009c_16x24_cga_mode4_pal0.png
+  오프셋: 0x009c
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off009c_16x24_cga_planar_pal1.png
+  오프셋: 0x009c
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off009c_16x24_cga_planar_pal0.png
+  오프셋: 0x009c
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off009c_16x24_16plane_interleaved.png
+  오프셋: 0x009c
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off009c_16x24_chunky_8bit.png
+  오프셋: 0x009c
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00a0_16x24_cga_mode4_pal1.png
+  오프셋: 0x00a0
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00a0_16x24_cga_mode4_pal0.png
+  오프셋: 0x00a0
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00a0_16x24_cga_planar_pal1.png
+  오프셋: 0x00a0
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00a0_16x24_cga_planar_pal0.png
+  오프셋: 0x00a0
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00a0_16x24_16plane_interleaved.png
+  오프셋: 0x00a0
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00a0_16x24_chunky_8bit.png
+  오프셋: 0x00a0
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00a4_16x24_cga_mode4_pal1.png
+  오프셋: 0x00a4
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00a4_16x24_cga_mode4_pal0.png
+  오프셋: 0x00a4
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00a4_16x24_cga_planar_pal1.png
+  오프셋: 0x00a4
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00a4_16x24_cga_planar_pal0.png
+  오프셋: 0x00a4
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00a4_16x24_16plane_interleaved.png
+  오프셋: 0x00a4
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00a4_16x24_chunky_8bit.png
+  오프셋: 0x00a4
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00a8_16x24_cga_mode4_pal1.png
+  오프셋: 0x00a8
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00a8_16x24_cga_mode4_pal0.png
+  오프셋: 0x00a8
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00a8_16x24_cga_planar_pal1.png
+  오프셋: 0x00a8
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00a8_16x24_cga_planar_pal0.png
+  오프셋: 0x00a8
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00a8_16x24_16plane_interleaved.png
+  오프셋: 0x00a8
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00a8_16x24_chunky_8bit.png
+  오프셋: 0x00a8
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00ac_16x24_cga_mode4_pal1.png
+  오프셋: 0x00ac
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00ac_16x24_cga_mode4_pal0.png
+  오프셋: 0x00ac
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00ac_16x24_cga_planar_pal1.png
+  오프셋: 0x00ac
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00ac_16x24_cga_planar_pal0.png
+  오프셋: 0x00ac
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00ac_16x24_16plane_interleaved.png
+  오프셋: 0x00ac
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00ac_16x24_chunky_8bit.png
+  오프셋: 0x00ac
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00b0_16x24_cga_mode4_pal1.png
+  오프셋: 0x00b0
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00b0_16x24_cga_mode4_pal0.png
+  오프셋: 0x00b0
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00b0_16x24_cga_planar_pal1.png
+  오프셋: 0x00b0
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00b0_16x24_cga_planar_pal0.png
+  오프셋: 0x00b0
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00b0_16x24_16plane_interleaved.png
+  오프셋: 0x00b0
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00b0_16x24_chunky_8bit.png
+  오프셋: 0x00b0
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00b4_16x24_cga_mode4_pal1.png
+  오프셋: 0x00b4
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00b4_16x24_cga_mode4_pal0.png
+  오프셋: 0x00b4
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00b4_16x24_cga_planar_pal1.png
+  오프셋: 0x00b4
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00b4_16x24_cga_planar_pal0.png
+  오프셋: 0x00b4
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00b4_16x24_16plane_interleaved.png
+  오프셋: 0x00b4
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00b4_16x24_chunky_8bit.png
+  오프셋: 0x00b4
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00b8_16x24_cga_mode4_pal1.png
+  오프셋: 0x00b8
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00b8_16x24_cga_mode4_pal0.png
+  오프셋: 0x00b8
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00b8_16x24_cga_planar_pal1.png
+  오프셋: 0x00b8
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00b8_16x24_cga_planar_pal0.png
+  오프셋: 0x00b8
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00b8_16x24_16plane_interleaved.png
+  오프셋: 0x00b8
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00b8_16x24_chunky_8bit.png
+  오프셋: 0x00b8
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00bc_16x24_cga_mode4_pal1.png
+  오프셋: 0x00bc
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00bc_16x24_cga_mode4_pal0.png
+  오프셋: 0x00bc
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00bc_16x24_cga_planar_pal1.png
+  오프셋: 0x00bc
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00bc_16x24_cga_planar_pal0.png
+  오프셋: 0x00bc
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00bc_16x24_16plane_interleaved.png
+  오프셋: 0x00bc
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00bc_16x24_chunky_8bit.png
+  오프셋: 0x00bc
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00c0_16x24_cga_mode4_pal1.png
+  오프셋: 0x00c0
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00c0_16x24_cga_mode4_pal0.png
+  오프셋: 0x00c0
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00c0_16x24_cga_planar_pal1.png
+  오프셋: 0x00c0
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00c0_16x24_cga_planar_pal0.png
+  오프셋: 0x00c0
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00c0_16x24_16plane_interleaved.png
+  오프셋: 0x00c0
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00c0_16x24_chunky_8bit.png
+  오프셋: 0x00c0
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00c4_16x24_cga_mode4_pal1.png
+  오프셋: 0x00c4
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00c4_16x24_cga_mode4_pal0.png
+  오프셋: 0x00c4
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00c4_16x24_cga_planar_pal1.png
+  오프셋: 0x00c4
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00c4_16x24_cga_planar_pal0.png
+  오프셋: 0x00c4
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00c4_16x24_16plane_interleaved.png
+  오프셋: 0x00c4
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00c4_16x24_chunky_8bit.png
+  오프셋: 0x00c4
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00c8_16x24_cga_mode4_pal1.png
+  오프셋: 0x00c8
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00c8_16x24_cga_mode4_pal0.png
+  오프셋: 0x00c8
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00c8_16x24_cga_planar_pal1.png
+  오프셋: 0x00c8
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00c8_16x24_cga_planar_pal0.png
+  오프셋: 0x00c8
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00c8_16x24_16plane_interleaved.png
+  오프셋: 0x00c8
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00c8_16x24_chunky_8bit.png
+  오프셋: 0x00c8
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00cc_16x24_cga_mode4_pal1.png
+  오프셋: 0x00cc
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00cc_16x24_cga_mode4_pal0.png
+  오프셋: 0x00cc
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00cc_16x24_cga_planar_pal1.png
+  오프셋: 0x00cc
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00cc_16x24_cga_planar_pal0.png
+  오프셋: 0x00cc
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00cc_16x24_16plane_interleaved.png
+  오프셋: 0x00cc
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00cc_16x24_chunky_8bit.png
+  오프셋: 0x00cc
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00d0_16x24_cga_mode4_pal1.png
+  오프셋: 0x00d0
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00d0_16x24_cga_mode4_pal0.png
+  오프셋: 0x00d0
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00d0_16x24_cga_planar_pal1.png
+  오프셋: 0x00d0
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00d0_16x24_cga_planar_pal0.png
+  오프셋: 0x00d0
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00d0_16x24_16plane_interleaved.png
+  오프셋: 0x00d0
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00d0_16x24_chunky_8bit.png
+  오프셋: 0x00d0
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00d4_16x24_cga_mode4_pal1.png
+  오프셋: 0x00d4
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00d4_16x24_cga_mode4_pal0.png
+  오프셋: 0x00d4
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00d4_16x24_cga_planar_pal1.png
+  오프셋: 0x00d4
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00d4_16x24_cga_planar_pal0.png
+  오프셋: 0x00d4
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00d4_16x24_16plane_interleaved.png
+  오프셋: 0x00d4
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00d4_16x24_chunky_8bit.png
+  오프셋: 0x00d4
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00d8_16x24_cga_mode4_pal1.png
+  오프셋: 0x00d8
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00d8_16x24_cga_mode4_pal0.png
+  오프셋: 0x00d8
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00d8_16x24_cga_planar_pal1.png
+  오프셋: 0x00d8
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00d8_16x24_cga_planar_pal0.png
+  오프셋: 0x00d8
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00d8_16x24_16plane_interleaved.png
+  오프셋: 0x00d8
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00d8_16x24_chunky_8bit.png
+  오프셋: 0x00d8
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00dc_16x24_cga_mode4_pal1.png
+  오프셋: 0x00dc
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00dc_16x24_cga_mode4_pal0.png
+  오프셋: 0x00dc
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00dc_16x24_cga_planar_pal1.png
+  오프셋: 0x00dc
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00dc_16x24_cga_planar_pal0.png
+  오프셋: 0x00dc
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00dc_16x24_16plane_interleaved.png
+  오프셋: 0x00dc
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00dc_16x24_chunky_8bit.png
+  오프셋: 0x00dc
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00e0_16x24_cga_mode4_pal1.png
+  오프셋: 0x00e0
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00e0_16x24_cga_mode4_pal0.png
+  오프셋: 0x00e0
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00e0_16x24_cga_planar_pal1.png
+  오프셋: 0x00e0
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00e0_16x24_cga_planar_pal0.png
+  오프셋: 0x00e0
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00e0_16x24_16plane_interleaved.png
+  오프셋: 0x00e0
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00e0_16x24_chunky_8bit.png
+  오프셋: 0x00e0
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00e4_16x24_cga_mode4_pal1.png
+  오프셋: 0x00e4
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00e4_16x24_cga_mode4_pal0.png
+  오프셋: 0x00e4
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00e4_16x24_cga_planar_pal1.png
+  오프셋: 0x00e4
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00e4_16x24_cga_planar_pal0.png
+  오프셋: 0x00e4
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00e4_16x24_16plane_interleaved.png
+  오프셋: 0x00e4
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00e4_16x24_chunky_8bit.png
+  오프셋: 0x00e4
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00e8_16x24_cga_mode4_pal1.png
+  오프셋: 0x00e8
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00e8_16x24_cga_mode4_pal0.png
+  오프셋: 0x00e8
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00e8_16x24_cga_planar_pal1.png
+  오프셋: 0x00e8
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00e8_16x24_cga_planar_pal0.png
+  오프셋: 0x00e8
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00e8_16x24_16plane_interleaved.png
+  오프셋: 0x00e8
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00e8_16x24_chunky_8bit.png
+  오프셋: 0x00e8
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00ec_16x24_cga_mode4_pal1.png
+  오프셋: 0x00ec
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00ec_16x24_cga_mode4_pal0.png
+  오프셋: 0x00ec
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00ec_16x24_cga_planar_pal1.png
+  오프셋: 0x00ec
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00ec_16x24_cga_planar_pal0.png
+  오프셋: 0x00ec
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00ec_16x24_16plane_interleaved.png
+  오프셋: 0x00ec
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00ec_16x24_chunky_8bit.png
+  오프셋: 0x00ec
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00f0_16x24_cga_mode4_pal1.png
+  오프셋: 0x00f0
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00f0_16x24_cga_mode4_pal0.png
+  오프셋: 0x00f0
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00f0_16x24_cga_planar_pal1.png
+  오프셋: 0x00f0
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00f0_16x24_cga_planar_pal0.png
+  오프셋: 0x00f0
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00f0_16x24_16plane_interleaved.png
+  오프셋: 0x00f0
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00f0_16x24_chunky_8bit.png
+  오프셋: 0x00f0
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00f4_16x24_cga_mode4_pal1.png
+  오프셋: 0x00f4
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00f4_16x24_cga_mode4_pal0.png
+  오프셋: 0x00f4
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00f4_16x24_cga_planar_pal1.png
+  오프셋: 0x00f4
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00f4_16x24_cga_planar_pal0.png
+  오프셋: 0x00f4
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00f4_16x24_16plane_interleaved.png
+  오프셋: 0x00f4
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00f4_16x24_chunky_8bit.png
+  오프셋: 0x00f4
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00f8_16x24_cga_mode4_pal1.png
+  오프셋: 0x00f8
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00f8_16x24_cga_mode4_pal0.png
+  오프셋: 0x00f8
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00f8_16x24_cga_planar_pal1.png
+  오프셋: 0x00f8
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00f8_16x24_cga_planar_pal0.png
+  오프셋: 0x00f8
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00f8_16x24_16plane_interleaved.png
+  오프셋: 0x00f8
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00f8_16x24_chunky_8bit.png
+  오프셋: 0x00f8
+  크기: 16x24
+  포맷: chunky_8bit
+
+- PLAYER1_off00fc_16x24_cga_mode4_pal1.png
+  오프셋: 0x00fc
+  크기: 16x24
+  포맷: cga_mode4_pal1
+
+- PLAYER1_off00fc_16x24_cga_mode4_pal0.png
+  오프셋: 0x00fc
+  크기: 16x24
+  포맷: cga_mode4_pal0
+
+- PLAYER1_off00fc_16x24_cga_planar_pal1.png
+  오프셋: 0x00fc
+  크기: 16x24
+  포맷: cga_planar_pal1
+
+- PLAYER1_off00fc_16x24_cga_planar_pal0.png
+  오프셋: 0x00fc
+  크기: 16x24
+  포맷: cga_planar_pal0
+
+- PLAYER1_off00fc_16x24_16plane_interleaved.png
+  오프셋: 0x00fc
+  크기: 16x24
+  포맷: 16plane_interleaved
+
+- PLAYER1_off00fc_16x24_chunky_8bit.png
+  오프셋: 0x00fc
+  크기: 16x24
+  포맷: chunky_8bit
+

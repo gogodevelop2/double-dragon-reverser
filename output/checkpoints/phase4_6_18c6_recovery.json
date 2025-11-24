@@ -1,0 +1,68 @@
+{
+  "phase": "4.6",
+  "title": "0x18c6 점프 테이블 미인식 함수 복구",
+  "timestamp": "2025-11-24",
+  "target": "0x18c6 렌더링 점프 테이블",
+  "missing_functions": 9,
+  "results": {
+    "success": [
+      {
+        "offset": "0x48e4",
+        "name": "FUN_1000_48e4",
+        "size": 90,
+        "file": "output/decompiled/FUN_1000_48e4.c"
+      },
+      {
+        "offset": "0x81c6",
+        "name": "FUN_1000_81c6",
+        "size": 100,
+        "file": "output/decompiled/FUN_1000_81c6.c"
+      },
+      {
+        "offset": "0x822e",
+        "name": "FUN_1000_822e",
+        "size": 73,
+        "file": "output/decompiled/FUN_1000_822e.c"
+      },
+      {
+        "offset": "0x827b",
+        "name": "FUN_1000_827b",
+        "size": 121,
+        "file": "output/decompiled/FUN_1000_827b.c"
+      },
+      {
+        "offset": "0x82f8",
+        "name": "FUN_1000_82f8",
+        "size": 89,
+        "file": "output/decompiled/FUN_1000_82f8.c"
+      },
+      {
+        "offset": "0x8139",
+        "name": "FUN_1000_8139",
+        "size": 84,
+        "file": "output/decompiled/FUN_1000_8139.c"
+      },
+      {
+        "offset": "0x810f",
+        "name": "FUN_1000_810f",
+        "size": 38,
+        "file": "output/decompiled/FUN_1000_810f.c"
+      },
+      {
+        "offset": "0x5864",
+        "name": "FUN_1000_5864",
+        "size": 165,
+        "file": "output/decompiled/FUN_1000_5864.c"
+      },
+      {
+        "offset": "0x591d",
+        "name": "FUN_1000_591d",
+        "size": 124,
+        "file": "output/decompiled/FUN_1000_591d.c"
+      }
+    ],
+    "failed": [],
+    "already_exists": []
+  },
+  "success_rate": 100.0
+}
