@@ -26,6 +26,7 @@ spice86-dumps/*/spice86dumpMemoryDump.bin
 # 작업 임시 폴더
 output/decompiled/*.c
 output/decompiled/*.json
+output/sprites_scan/
 temp/
 build/
 
