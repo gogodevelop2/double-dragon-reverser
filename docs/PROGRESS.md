@@ -1,8 +1,8 @@
 # 프로젝트 진행 상황
 
 **최종 업데이트**: 2025-11-24
-**현재 단계**: Phase 4 완료 → Phase 5 준비
-**전체 진행률**: 85%
+**현재 단계**: Phase 4 완료 (98%) → Phase 5 준비
+**전체 진행률**: 90%
 
 ---
 
@@ -100,8 +100,8 @@
 ## ✅ Phase 4: 게임 로직 완전 분석
 
 **완료일**: 2025-11-24
-**상태**: ✅ 완료
-**총 소요 시간**: 8시간
+**상태**: ✅ 98% 완료
+**총 소요 시간**: 12시간
 
 ### Sub-Phase 진행
 - ✅ Phase 4.0: 초기 분석 (118개 함수)
@@ -111,7 +111,8 @@
 - ✅ Phase 4.4: 핵심 5개 함수 상세 분석
 - ✅ Phase 4.5: 호출 그래프 복구 (+15개)
 - ✅ Phase 4.6: 0x18c6 점프 테이블 (+9개)
-- ✅ Phase 4.7: 통합 문서화
+- ✅ Phase 4.7: 입력/카메라/물리 시스템 (8개 함수, 4번째 jump table)
+- ✅ Phase 4.8: 데이터 로딩/그래픽 초기화 (14개 함수, 5번째 jump table)
 
 ### 최종 함수 통계
 ```
@@ -125,12 +126,15 @@ Phase 4.6 (0x18c6):        9개
 
 ### 완료 항목
 - ✅ 164개 함수 디컴파일 완료
+- ✅ **72개 함수 상세 분석** (7개 분석 문서, 5,600+ 줄)
 - ✅ 실행 경로 완전 추적 (entry → 초기화 → 메인 루프)
 - ✅ 렌더링 파이프라인 완전 파악 (5단계)
-- ✅ 메모리 맵 완전 작성 (50+ 주소)
-- ✅ 5개 점프 테이블 발견
+- ✅ 메모리 맵 완전 작성 (80+ 주소)
+- ✅ **5개 점프 테이블 완전 발견** (AI, Collision, Rendering, Physics, Hook)
 - ✅ 객체 시스템 완전 분석 (2개 배열, 13개 슬롯)
-- ✅ 스크롤 시스템 파악
+- ✅ 스크롤 시스템 파악 (2-플레이어 카메라, 데드존)
+- ✅ **LZW 압축 해제 완전 분석** (매직 넘버 0x9d1f)
+- ✅ **CGA 비트 플레인 인터리빙** (147 bytes 극한 최적화)
 - ✅ 핵심 시스템 문서화
 
 ### 주요 발견
@@ -148,12 +152,12 @@ FUN_1000_28c0/28ef (Blit × 4 planes)
 Video Memory (0xB8000)
 ```
 
-#### 2. 점프 테이블 시스템
-- **0x18c4**: 함수 디스패처 (11개?)
-- **0x18c6**: 렌더링 디스패처 (30개) ← Phase 4.6에서 완전 분석
-- **0x18d0**: 함수 디스패처
-- **0x1319**: 타일맵 디스패처
-- **0x3ff4**: 스테이지 디스패처
+#### 2. 5개 Jump Table 완전 발견 ★★★
+- **0x16ef**: AI 디스패처 (256 entries) - Entity AI state machine
+- **0xe3f**: Collision 디스패처 (256 entries) - Collision type handlers
+- **0x18c4**: Rendering 디스패처 (30 entries, 동적!) - 3개 테이블 전환
+- **0x2264**: Physics 디스패처 (256 entries) - Projectile physics ← Phase 4.7
+- **0x18d2**: Hook 디스패처 (단일 포인터) - Update/Render hook ← Phase 4.8
 
 #### 3. 객체 시스템
 - **0x16c6**: 엔티티 배열 (7개 × 24B) - 플레이어 + 적
@@ -165,11 +169,20 @@ Video Memory (0xB8000)
 - **0xf38c**: VRAM 오프셋 포인터
 
 **문서**:
-- [PHASE4_COMPLETE.md](reports/PHASE4_COMPLETE.md) ⭐ **신규**
-- [RENDERING_SYSTEM.md](technical/RENDERING_SYSTEM.md) ⭐ **신규**
-- [MEMORY_MAP.md](technical/MEMORY_MAP.md) ⭐ **신규**
+- [PHASE4_COMPLETE.md](reports/PHASE4_COMPLETE.md)
+- [RENDERING_SYSTEM.md](technical/RENDERING_SYSTEM.md)
+- [MEMORY_MAP.md](technical/MEMORY_MAP.md)
 - [EXECUTION_PATH.md](technical/EXECUTION_PATH.md)
 - [SPRITE_FORMAT.md](technical/SPRITE_FORMAT.md)
+
+**상세 분석 문서** (7개, 5,600+ 줄): ⭐ **Phase 4.7-4.8**
+- [SCROLL_SYSTEM_ANALYSIS.md](function-analysis/SCROLL_SYSTEM_ANALYSIS.md)
+- [RENDERING_HELPERS_ANALYSIS.md](function-analysis/RENDERING_HELPERS_ANALYSIS.md)
+- [MAIN_GAME_LOOP_ANALYSIS.md](function-analysis/MAIN_GAME_LOOP_ANALYSIS.md)
+- [ENTITY_SYSTEM_ANALYSIS.md](function-analysis/ENTITY_SYSTEM_ANALYSIS.md)
+- [ADDITIONAL_SYSTEMS_ANALYSIS.md](function-analysis/ADDITIONAL_SYSTEMS_ANALYSIS.md)
+- [INPUT_CAMERA_PHYSICS_ANALYSIS.md](function-analysis/INPUT_CAMERA_PHYSICS_ANALYSIS.md) ← **4번째 jump table**
+- [DATA_LOADING_GRAPHICS_INIT_ANALYSIS.md](function-analysis/DATA_LOADING_GRAPHICS_INIT_ANALYSIS.md) ← **5번째 jump table**
 
 ---
 
@@ -365,9 +378,9 @@ Phase 0: ████████████████████ 100% (환�
 Phase 1: ████████████████████ 100% (코드 추출)
 Phase 2: ████████████████████ 100% (코드 분석)
 Phase 3: ████████████████████ 100% (에셋 분석)
-Phase 4: ████████████████████ 100% (게임 로직 분석)
+Phase 4: ███████████████████░  98% (게임 로직 분석) ← 72/164 함수 상세 분석
 Phase 5: ░░░░░░░░░░░░░░░░░░░░   0% (C++ 구현)
 Phase 6: ░░░░░░░░░░░░░░░░░░░░   0% (통합 검증)
 ───────────────────────────────────────
-전체:   █████████████████░░░  85%
+전체:   ██████████████████░░  90%
 ```
